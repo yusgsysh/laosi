@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>牢司，MAN!</title>
+    <style>
+        @keyframes breath {
+            0% {
+                color: red;
+                text-shadow: 0 0 10px red;
+            }
+            25% {
+                color: yellow;
+                text-shadow: 0 0 10px yellow;
+            }
+            50% {
+                color: green;
+                text-shadow: 0 0 10px green;
+            }
+            75% {
+                color: blue;
+                text-shadow: 0 0 10px blue;
+            }
+            100% {
+                color: red;
+                text-shadow: 0 0 10px red;
+            }
+        }
+
+        .breath-text {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
+            animation: breath 2s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="breath-text">牢司！</div>
+</body>
+</html>
